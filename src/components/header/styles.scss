@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+.list-header {
+  background: #f2feff;
+  display: flex;
+  justify-content: space-between;
+  box-shadow: -1px 5px 5px rgba(0, 0, 0, 0.178);
+
+  ul {
+    display: flex;
+    gap: 1.25rem;
+    list-style-type: none;
+    align-items: center;
+    margin-left: 1.25rem;
+    height: 3.75rem;
+
+    .text-breve {
+      display: flex;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      font-family: "Noto Sans", sans-serif;
+      font-size: 11px;
+      color: red;
+      font-weight: bold;
+      margin-left: -85px;
+      margin-top: 28px;
+    }
+
+    li {
+      a {
+        color: white;
+        text-shadow: black 1px 1px 3px;
+        text-decoration: none;
+        font-family: "Noto Sans", sans-serif;
+        transition: filter 0.3s;
+        font-size: 0.95rem;
+        font-weight: bold;
+      }
+
+      .download-button {
+        text-shadow: black 1px 1px 3px;
+        cursor: not-allowed;
+        color: rgba(214, 214, 214, 0.938);
+      }
+
+      .download-button:hover {
+        filter: none;
+      }
+
+      a:hover {
+        filter: brightness(80%);
+      }
+    }
+  }
+
+  .buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9375rem;
+    margin-right: 1.25rem;
+  }
+}
+
+.login-screen-close {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  height: 93.6vh;
+  background: rgba(0, 0, 0, 0.877);
+  position: absolute;
+  width: 100vw;
+
+  .close-button {
+    text-decoration: none;
+    display: flex;
+    font-size: 1.875rem;
+    color: black;
+    border-radius: 1.875rem;
+    box-sizing: border-box;
+    border: 0.25rem solid black;
+    height: 3.125rem;
+    width: 3.125rem;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    font-family: "Bungee", sans-serif;
+    margin: -2.375rem 0 0 -0.5rem;
+    background: #f2feff;
+    cursor: pointer;
+    transition: filter 0.3s;
+    margin: 0 -2.5rem -0.5rem 0;
+    font-weight: bold;
+  }
+  .close-button:hover {
+    filter: brightness(80%);
+  }
+}

@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+.donate-container {
+  height: 47vh;
+  width: 38vw;
+  margin-left: 135px;
+  word-break: break-word;
+  background: #f2feff;
+  border-radius: 20px;
+  margin-top: 300px;
+  box-shadow: -8px 8px rgba(0, 0, 0, 0.397);
+  border: 1px solid black;
+  text-align: center;
+  padding: 30px;
+
+  .container-pagamentos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    label {
+      width: 200px;
+      font-family: "Noto Sans", sans-serif;
+      border: 2px solid black;
+      border-radius: 5px;
+      padding: 2px;
+      text-align: center;
+      align-items: center;
+      cursor: pointer;
+      font-weight: bold;
+      background: white;
+    }
+
+    label:hover {
+      background: #6fd0d9;
+      transition: 0.2s;
+      color: white;
+    }
+
+    input[type="radio"] {
+      display: none;
+    }
+
+    input[type="radio"]:checked + label {
+      background-color: #6fd0d9;
+      color: white;
+    }
+
+    .form-pagamentos {
+      gap: 35px;
+      margin-top: 20px;
+      display: flex;
+      width: 500px;
+    }
+
+    span {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      font-size: 10px;
+    }
+
+    .button-send-donate {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 20px;
+    }
+  }
+
+  p {
+    padding: 7px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Noto Sans", sans-serif;
+    color: black;
+    margin-top: 40px;
+    font-weight: bold;
+  }
+
+  .p-shadow {
+    background: rgba(0, 0, 0, 0.075);
+    border-radius: 8px;
+  }
+}

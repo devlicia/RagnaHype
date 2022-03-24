@@ -1,0 +1,41 @@
+.info-container {
+  height: 100%;
+  width: 36vw;
+  margin-top: 180px;
+  margin-left: 135px;
+  word-break: break-word;
+
+  .gif-info {
+    border-radius: 20px;
+    margin-top: 320px;
+    background: #f2feff;
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: middle;
+    flex-direction: column;
+    align-items: center;
+    width: 740px;
+    box-shadow: -8px 8px rgba(0, 0, 0, 0.397);
+    border: 1px solid black;
+
+    p {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: "Noto Sans", sans-serif;
+      color: black;
+      margin-top: 12px;
+      padding: 20px;
+      font-weight: bold;
+      width: 700px;
+    }
+
+    img {
+      margin-top: 30px;
+      width: 450px;
+      height: 250px;
+      border-radius: 10px;
+    }
+  }
+}

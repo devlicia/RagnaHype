@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;700&display=swap");
+
+button {
+  background: #6fd0d9;
+  color: white;
+  text-shadow: black 1px 1px 3px;
+  border-radius: 0.3125rem;
+  min-width: 7.5rem;
+  min-height: 1.875rem;
+  width: auto;
+  font-family: "Noto Sans", sans-serif;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  transition: filter 0.3s;
+  font-size: 0.95rem;
+  font-weight: bold;
+  border: 2px solid black;
+
+  &.isOutlined {
+    border: 2px solid black;
+    width: 150px;
+    font-family: "Noto Sans", sans-serif;
+    font-weight: bold;
+  }
+}
+
+button:hover {
+  filter: brightness(80%);
+}
